@@ -2,6 +2,7 @@ require "pry"
 def square_array(numbers)
   new_array = []
   numbers.each do |number|
-    binding.pry <<
+   new_array << number * number
   end
+  return new_array
 end
